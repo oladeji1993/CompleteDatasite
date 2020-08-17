@@ -1,0 +1,303 @@
+.nav{
+    position: relative;
+    left:45%;
+}
+
+.main{
+    background-color: rgb(247, 192, 92);
+}
+
+.navbar-brand{
+    width:7%;
+    height:auto;
+}
+
+.nav span{
+    border: 3px solid rgb(207, 45, 45);
+    padding:2px
+}
+.carousel-caption{
+    width:80%;
+    padding-bottom:20%;
+    height:auto;
+}
+
+.carousel-caption h1{
+    text-align:center;
+    color:brown;
+    font-family:Helvetica, sans-serif 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.carousel-caption p{
+    color:white;
+    font-family: agency fb;
+    font-size: 150%;
+    text-align: center;
+}
+
+.container{
+    margin-top:5px;
+}
+
+.carousel-caption p1{
+    color:black;
+    font-family: agency fb;
+    font-size: 150%;
+    text-align: left;
+}
+
+.header{
+    background-color: rgb(247, 192, 92);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom:20px;
+    font-family: Helvetica, sans-serif;
+    color:brown;
+    text-shadow: 3px 1px 5px rgb(41, 23, 1);
+}
+
+.header1{
+    background-color: rgb(247, 192, 92);
+    text-align: center;
+    padding-top: 40px;
+    height:70%;
+    padding-bottom:30px;
+    font-family: Helvetica, sans-serif;
+    color:rgb(170, 51, 51);
+    text-shadow: 3px 1px 5px rgb(41, 23, 1);
+}
+
+.header1 p{
+    text-shadow: 0px 0px 0px;
+    color:rgb(255, 246, 246);
+    padding:20px;
+}
+.card-header h3{
+    text-align:center;
+} 
+
+.card-footer{
+    text-align: center;
+}
+
+.card-body p{
+    text-align: center;
+    color:rgb(247, 114, 6);
+    font-family:helvetica;
+}
+
+.card-body span{
+    padding-left:90px;
+
+}
+
+.card-body p1{
+    text-align: center;
+    color:green
+}
+
+.card-body span1{
+    padding-left:90px;
+    color:green;
+
+}
+
+/*our service session*/
+#service1{
+    padding-top:2%
+}
+.row{
+    padding-top:30px;
+    padding-bottom: 30px;;
+}
+
+.col-lg-4{
+    text-align: center;
+}
+.col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+.col-lg-4 p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.col-lg-4 p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+.col-lg-4 h2 {
+    font-weight: 400;
+}
+.col-lg-4 h2 {
+    font-size: 2rem;
+}
+
+@media screen and (max-width:800px){
+    .carousel-caption h1{
+        font-size:100%;
+        text-align:center;
+        color:brown;
+        font-family:Helvetica, sans-serif 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+    
+    .carousel-caption p{
+        color:white;
+        font-family: agency fb;
+        font-size: 100%;
+        text-align: center;
+    }
+
+    .nav{
+        position: relative;
+        left:5%;
+    }
+
+    #contact>button{
+        align-items: right;
+        margin-left:50px;
+    }
+    
+
+}
+
+.modal-title{
+    text-align: left;
+    color:rgb(241, 179, 7);
+}
+
+/*price font and style*/
+
+#MTN p{
+    color:rgb(241, 179, 7);
+    font-family:Georgia, Times, 'Times New Roman', serif,ans-serif;
+}
+
+#glo p{
+    color:rgb(10, 163, 10);
+    font-family:Georgia, Times, 'Times New Roman', serif,ans-serif
+}
+
+#airtel p{
+    color:rgb(241, 9, 9);
+    font-family:Georgia, Times, 'Times New Roman', serif,ans-serif
+}
+
+#Etisalat p{
+    color:rgb(125, 201, 11);
+    font-family:Georgia, Times, 'Times New Roman', serif,ans-serif
+}
+
+#wall p{
+    color:rgb(3, 100, 119)
+}
+
+/*about us session*/
+#abt{
+    background-color: black;
+}
+
+
+#abt h3{
+    text-align:center;
+    color:white;
+    padding:3%;
+    padding-top:5px;
+    font-family: agency fb;
+}
+#abt p{
+    text-align: center;
+    font-family: cursive;
+    color:white;
+    padding:5px;
+    
+
+}
+
+#img img{
+    width:103%;
+    height:100%;
+}
+
+/* contact us session*/
+#contact h2{
+    color:white;
+    font-family: agency fb; 
+}
+
+#contact{
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+#contact>button{
+    margin-left:22px;
+}
+.form-control{
+    border-top:none;
+}
+
+#text{
+    width:80%;
+    height: 20%;
+}
+
+#us img{
+    width:103%;
+    height:100%;
+}
+
+/*footer area*/
+.main-footer{
+    background: #f2f2f2;
+    color:#616161;
+    font-size: 12px;
+    padding:0 20px;
+}
+
+.footer-inner{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px  0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-inner ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-inner i{
+    margin-right: 10px;
+}
+
+.main-footer div{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-inner li{
+    margin-right: 30px;
+    margin: 20px;
+    list-style: none;
+}
+
+.footer-inner a:hover{
+    text-decoration: none;
+    background: #616161;
+    padding:5px;
+    color:white
+}
